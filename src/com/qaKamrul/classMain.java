@@ -29,7 +29,7 @@ public class classMain {
 			prac.practiceClass();
 			break;
 		}
-
+		sc.close();
 	}
 
 }

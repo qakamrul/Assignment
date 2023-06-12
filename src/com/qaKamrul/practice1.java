@@ -31,5 +31,7 @@ public class practice1 {
 		System.out.println("Total Number of Character with Space: " + msg.length());
 		System.out.println("Total Number of Character without Space: " + (msg.length()- --wordCount));
 		System.out.println("Total Number of Punctuation: " + punctuationCount);
+		
+		sc.close();
 	}
 }

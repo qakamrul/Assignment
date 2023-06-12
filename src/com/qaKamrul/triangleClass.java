@@ -2,7 +2,7 @@ package com.qaKamrul;
 
 public class triangleClass {
 
-	public static void main(String[] args) {
+	public void triangle() {
 		
 		//Right Half Triangle
 		String star = "*";
@@ -11,6 +11,7 @@ public class triangleClass {
 			System.out.println(star);
 			star += '*';
 		}
+		System.out.println(" ");
 		
 		//Left Half Triangle
 		star = "*";
@@ -21,8 +22,9 @@ public class triangleClass {
 			System.out.println(star);
 			star += "*";
 		}
+		System.out.println(" ");
 		
-		//Upper half TRIANGLE
+		//TRIANGLE
 		star = "*";
 		int m = 1;
 		for (int i = 5; i >= 1; i--) {
@@ -34,6 +36,7 @@ public class triangleClass {
 				star += "*";
 			}
 		}
+		System.out.println(" ");
 		
 		//DIAMOND
 		star = "*";
